@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VSCode Snippet Generate Helper</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+        textarea[name="input"] {
+            width: 48%;
+            height: 90%;
+        }
+        textarea[name="output"] {
+            width: 48%;
+            height: 90%;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="tool-bar">
+        <label for="linebreak">换行符：</label>
+        <select name="linebreak">
+            <option value="lf" selected>\n</option>
+            <option value="crlf">\r\n</option>
+        </select>
+        <label for="indentation">缩进方式：</label>
+        <select name="indentation">
+            <option value="space2">空格:2</option>
+            <option value="space4" selected>空格:4</option>
+            <option value="tab">Tab</option>
+        </select>
+    </div> -->
+    <textarea name="input" placeholder="在此输入代码段" autofocus></textarea>
+    <textarea name="output" placeholder="转换结果"></textarea>
+    <script src="./index.js" />
+</body>
+</html>
