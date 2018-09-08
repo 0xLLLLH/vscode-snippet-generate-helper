@@ -1,4 +1,4 @@
-window.onload = function() {
+(function () {
     var input = document.querySelector('textarea[name="input"]');
     var output = document.querySelector('textarea[name="output"]');
 
@@ -13,4 +13,4 @@ window.onload = function() {
     }
 
     input.onchange = transformCode;
-}
+})();
